@@ -10,7 +10,7 @@ A tiny native Mac news reader. Add up to 5 sites, click a headline, get the actu
 
 **[Download for Mac →](https://github.com/hey-niia/skim/releases/latest)**
 
-Requires macOS 26 (Tahoe) or later with Apple Intelligence enabled. Skim is unsigned, so on first launch macOS will say it "cannot be opened because the developer cannot be verified." Right-click the app → **Open** → **Open** again, or run:
+Universal binary — runs natively on both Apple Silicon and Intel Macs. Requires macOS 26 (Tahoe) or later; summarization needs Apple Intelligence, which is Apple Silicon only — on Intel, adding sources and reading the live site still works, just without on-device summaries. Skim is unsigned, so on first launch macOS will say it "cannot be opened because the developer cannot be verified." Right-click the app → **Open** → **Open** again, or run:
 
 ```
 xattr -cr /Applications/Skim.app
